@@ -1,4 +1,4 @@
-ublic class WeatherSation {
+public class WeatherSation {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
 
