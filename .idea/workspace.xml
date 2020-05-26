@@ -19,9 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="690e9797-fc4f-4b7f-8465-fd1ed8ed9fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/ChocolateBoiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/Singleton.java" afterDir="false" />
+    <list default="true" id="690e9797-fc4f-4b7f-8465-fd1ed8ed9fee" name="Default Changelist" comment="add Singleton Pattern">
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConmandPattern/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPatternPizza/PizzaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
     </list>
@@ -33,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +58,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -53,11 +69,21 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hungm\IdeaProjects\DesignPattern\ObserverPatternWeather" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Singleton">
+  <component name="RunManager" selected="Application.RemoteLoader">
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteLoader" />
+      <module name="DesignPattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Singleton" />
       <module name="DesignPattern" />
@@ -79,8 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoteControlTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoteControlTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteLoader" />
+        <item itemvalue="JUnit.RemoteControlTest.Test" />
         <item itemvalue="Application.Singleton" />
         <item itemvalue="Application.WeatherSation" />
         <item itemvalue="Application.StarbuzzCoffee" />
@@ -98,6 +136,14 @@
       <option name="presentableId" value="Default" />
       <updated>1589957393087</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Singleton Pattern">
+      <created>1590416541669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590416541669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,37 +159,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="add Singleton Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Singleton Pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Project_Structure" timestamp="1589957911095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589957911095" />
-    <state x="214" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1590415193501">
+    <state x="214" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1590481315598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="214" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590415193501" />
+    <state x="214" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590481315598" />
+    <state x="139" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590481455623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="139" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590481455623" />
     <state x="89" y="68" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1590415962235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="89" y="68" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1590415962235" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1590416131026">
+    <state width="758" height="208" key="GridCell.Tab.0.bottom" timestamp="1590481749535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590416131026" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1590416131026">
+    <state width="758" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590481749535" />
+    <state width="758" height="208" key="GridCell.Tab.0.center" timestamp="1590481749535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590416131026" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1590416131026">
+    <state width="758" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590481749535" />
+    <state width="758" height="208" key="GridCell.Tab.0.left" timestamp="1590481749535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590416131026" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1590416131026">
+    <state width="758" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590481749535" />
+    <state width="758" height="208" key="GridCell.Tab.0.right" timestamp="1590481749535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590416131026" />
+    <state width="758" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590481749535" />
+    <state x="1" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590416556659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590416556659" />
+    <state x="138" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590479334190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="138" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1590479334190" />
     <state x="0" y="32" key="new project wizard" timestamp="1590331332711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
